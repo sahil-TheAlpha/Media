@@ -6,6 +6,7 @@
 body{
 	margin: 0px;
 	padding: 0px;
+	position: relative;
 }
 
 /*Start of Section One*/
@@ -466,6 +467,24 @@ body{
 	color: #ea7141;
 	padding: 10px;
 	font-size: 30px;
+}
+.modal-chrome{
+	position: absolute;
+	width: 30%;
+	top: 0%;
+	left: 0%;
+}
+.modal-opera{
+	position: absolute;
+	width: 30%;
+	top: 0%;
+	right: 0%;
+}
+.modal-firefox{
+	position: absolute;
+	width: 30%;
+	bottom: 100%;
+	right: 0%;	
 }
 
 /*Media Queries*/

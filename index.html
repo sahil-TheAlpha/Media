@@ -9,8 +9,6 @@
 	<link rel="stylesheet" type="text/css" href="CSS/index.css">
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
 	
 	<title>DESIGN ONE</title>
 
@@ -21,7 +19,7 @@
 		<!-- Start of Navbar -->
 		<nav class="navbar">
 			<div class="navbar-header">
-				<a href="https://www.bbc.com/" class="navbar-brand">
+				<a href="#" id="logo" data-toggle="modal" data-target="#myModal" class="navbar-brand">
 					<img class="img-responsive img-fluid" src="Images/Logo.png" />
 				</a>
 			</div>
@@ -243,6 +241,29 @@
 	</footer>
 	<!-- End of Footer Section -->
 
+	<!-- Start of Modal -->
+  	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    	<div class="modal-dialog">
+      		<div class="modal-content">
+        		<div class="modal-header">
+          			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            			<span aria-hidden="true">&times;</span>
+            		</button>
+        		</div>
+        		<div class="modal-body">
+          			<p>Hey you!</p>
+        		</div>
+        		<div class="modal-footer">
+          			<button type="button" class="btn btn-primary">YES </button>
+          			<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        		</div>
+      		</div>
+    	</div>
+  	</div>
+  	<!-- End of Modal -->
+
+  	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
 	<!-- jQuery -->
 	<script type="text/javascript" src="JS/jquery-3.3.1.min.js"></script>
 	<!-- Custom JS -->
